@@ -1,0 +1,25 @@
+/*
+ * degree.cpp
+ *
+ *  Created on: Oct 21, 2017
+ *      Author: User
+ */
+
+
+
+#include<iostream>
+
+using namespace std;
+
+ int main ()
+ {
+   int FTemp = 0;
+   int CTemp = 0;
+
+   cout << "Enter a Farenheit temperature: ";
+   cin >> FTemp;
+
+   CTemp = FTemp - 32 / (9/5);
+   cout << "\n" << FTemp <<"is"<< CTemp << "in degrees";
+   return 0;
+ }

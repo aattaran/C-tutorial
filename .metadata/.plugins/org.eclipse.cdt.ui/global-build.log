@@ -1,0 +1,26 @@
+17:02:50 **** Clean-only build of configuration Debug for project chars ****
+rm -rf char.d char.o chars.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:\MinGW2\mingw64\]
+
+17:02:50 **** Clean-only build of configuration Debug for project chars ****
+17:02:57 **** Rebuild of configuration Debug for project chars ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o char.o "..\\char.cpp" 
+g++ -o chars.exe char.o 
+17:02:59 **** Rebuild of configuration Debug for project postpre ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o postpre.o "..\\postpre.cpp" 
+..\postpre.cpp: In function 'int main()':
+..\postpre.cpp:23:49: warning: 'post' is used uninitialized in this function [-Wuninitialized]
+     cout<<"Inital values: \t\t\tpost = "<<post<<" pre= "<<pre<<"\n";
+                                                 ^~~~~~~~
+..\postpre.cpp:24:13: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+     post = a++;
+            ~^~
+g++ -o postpre.exe postpre.o 
+Info: Nothing to build for chars
+Info: Nothing to build for postpre
+Info: Nothing to build for postpre

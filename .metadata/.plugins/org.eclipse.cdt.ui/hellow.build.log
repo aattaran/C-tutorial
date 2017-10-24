@@ -1,0 +1,8 @@
+18:38:44 **** Incremental Build of configuration Debug for project hellow ****
+Info: Internal Builder is used for build
+g++ -o hellow.exe hw.o 
+c:/users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o):crt0_c.c:(.text+0x46): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+
+18:38:44 Build Finished (took 157ms)
+

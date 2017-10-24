@@ -1,0 +1,21 @@
+/*
+ * userinput.cpp
+ *
+ *  Created on: Oct 21, 2017
+ *      Author: User
+ */
+
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+	int year = 0;
+	int age = 0;
+	std::cout<< "what is your fav year?" << std::endl;
+
+	return 0;
+
+}
+
